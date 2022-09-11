@@ -1,15 +1,14 @@
 name: 'my first container action'
-description : 'armaan mahajan'
-author : 'armaan mahajan'
-inputs: 
-   myInput:
-     description: 'greeting to use'
-     required: true
-     default: 'Awesome armaan'
-  outputs:
-     myOutput:
-        description: 'Total memory'
-     runs:
-       using: 'docker'
-       image: 'Dockerfile'
-       
+description: 'Armaan Mahajan'
+author: 'armaan'
+inputs:
+  myInput:
+    description: 'greeting to use'
+    required: true
+    default: 'Awesome Guru'
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
